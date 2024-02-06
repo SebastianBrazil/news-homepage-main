@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: Inter;
+    src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
+.inter{
+    font-family: Inter;
+}
+
+.interHeavy{
+    font-family: Inter;
+    font-weight: 800;
+}
+
+.bodyText{
+    font-size: 15px;
+}
+
+body{
+    background-color: hsl(36, 100%, 99%);
+}
+
+.colorOrgange{
+    color: hsl(35, 77%, 62%);
+}
+
+.colorRed{
+    color: hsl(5, 85%, 63%);
+}
+
+.bgColorRed{
+    background-color: hsl(5, 85%, 63%);
+}
+
+.colorOffWhite{
+    color: hsl(36, 100%, 99%);
+}
+
+.colorGreyBlue{
+    color: hsl(233, 8%, 79%);
+}
+
+.colorDGreyBlue{
+    color: hsl(236, 13%, 42%);
+}
+
+.colorDBlue{
+    background-color: hsl(240, 100%, 5%);
+}
+
+.colorDBlueText{
+    color: hsl(240, 100%, 5%);
+}
