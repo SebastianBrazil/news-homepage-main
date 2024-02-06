@@ -1147,6 +1147,21 @@ input:checked + .toggle-bg {
   margin-right: auto;
 }
 
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -1155,12 +1170,28 @@ input:checked + .toggle-bg {
   margin-bottom: 0.5rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .ml-5 {
   margin-left: 1.25rem;
 }
 
+.ml-8 {
+  margin-left: 2rem;
+}
+
 .mr-1 {
   margin-right: 0.25rem;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
 }
 
 .mr-5 {
@@ -1175,44 +1206,12 @@ input:checked + .toggle-bg {
   margin-top: 0.5rem;
 }
 
-.mt-32 {
-  margin-top: 8rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
 
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
 }
 
 .block {
@@ -1251,6 +1250,10 @@ input:checked + .toggle-bg {
   height: 2.5rem;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
 .h-4 {
   height: 1rem;
 }
@@ -1263,10 +1266,6 @@ input:checked + .toggle-bg {
   height: 1.5rem;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
 .h-9 {
   height: 2.25rem;
 }
@@ -1277,6 +1276,10 @@ input:checked + .toggle-bg {
 
 .w-10 {
   width: 2.5rem;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .w-4 {
@@ -1555,9 +1558,9 @@ input:checked + .toggle-bg {
   padding-right: 1.25rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-2 {
@@ -1583,8 +1586,18 @@ input:checked + .toggle-bg {
   text-align: center;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
   line-height: 1;
 }
 
@@ -1596,11 +1609,6 @@ input:checked + .toggle-bg {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .font-medium {
@@ -1617,6 +1625,10 @@ input:checked + .toggle-bg {
 
 .leading-9 {
   line-height: 2.25rem;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
 }
 
 .text-blue-600 {
@@ -1707,53 +1719,71 @@ input:checked + .toggle-bg {
   src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
 }
 
-.inter{
+.inter {
   font-family: Inter;
+  font-weight: 400;
 }
 
-.interHeavy{
+.interMed {
+  font-family: Inter;
+  font-weight: 600;
+}
+
+.interHeavy {
   font-family: Inter;
   font-weight: 800;
 }
 
-.bodyText{
+.bodyText {
   font-size: 15px;
 }
 
-body{
+body {
   background-color: hsl(36, 100%, 99%);
 }
 
-.colorOrgange{
+.colorOrgange {
   color: hsl(35, 77%, 62%);
 }
 
-.colorRed{
+.colorRed {
   color: hsl(5, 85%, 63%);
 }
 
-.bgColorRed{
+.bgColorRed {
   background-color: hsl(5, 85%, 63%);
 }
 
-.colorOffWhite{
+.colorOffWhite {
   color: hsl(36, 100%, 99%);
 }
 
-.colorGreyBlue{
+.colorGreyBlue {
   color: hsl(233, 8%, 79%);
 }
 
-.colorDGreyBlue{
+.colorDGreyBlue {
   color: hsl(236, 13%, 42%);
 }
 
-.colorDBlue{
+.borderDGreyBlue {
+  border-color: hsl(236, 13%, 42%);
+}
+
+.colorDBlue {
   background-color: hsl(240, 100%, 5%);
 }
 
-.colorDBlueText{
+.colorDBlueText {
   color: hsl(240, 100%, 5%);
+}
+
+.lSpacing {
+  letter-spacing: 0.3rem;
+}
+
+.hSpace {
+  line-height: 1.10;
 }
 
 .hover\:border-gray-300:hover {
@@ -1789,6 +1819,26 @@ body{
 .hover\:text-gray-900:hover {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.hover\:\[color\:\#f15e50\]:hover {
+  color: #f15e50;
+}
+
+.hover\:\[color\:hsl\(5\2c 85\%\2c 63\%\)\]:hover {
+  color: hsl(5,85%,63%);
+}
+
+.hover\:\[color\:hsl\(35\2c 77\%\2c 62\%\)\]:hover {
+  color: hsl(35,77%,62%);
+}
+
+.hover\:\[background-color\:hsl\(5\2c 85\%\2c 63\%\)\]:hover {
+  background-color: hsl(5,85%,63%);
+}
+
+.hover\:\[background-color\:hsl\(240\2c 100\%\2c 5\%\)\]:hover {
+  background-color: hsl(240,100%,5%);
 }
 
 .focus\:outline-none:focus {
@@ -1978,6 +2028,10 @@ body{
     color: rgb(26 86 219 / var(--tw-text-opacity));
   }
 
+  .md\:hover\:\[color\:hsl\(5\2c 85\%\2c 63\%\)\]:hover {
+    color: hsl(5,85%,63%);
+  }
+
   :is(.dark .md\:dark\:bg-gray-900) {
     --tw-bg-opacity: 1;
     background-color: rgb(17 24 39 / var(--tw-bg-opacity));
@@ -2006,3 +2060,4 @@ body{
 .rtl\:space-x-reverse:where([dir="rtl"], [dir="rtl"] *) > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 1;
 }
+

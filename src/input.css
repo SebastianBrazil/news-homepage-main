@@ -7,51 +7,70 @@
     src: url('../assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
 }
 
-.inter{
+.inter {
     font-family: Inter;
+    font-weight: 400;
 }
 
-.interHeavy{
+.interMed {
+    font-family: Inter;
+    font-weight: 600;
+}
+
+.interHeavy {
     font-family: Inter;
     font-weight: 800;
 }
 
-.bodyText{
+.bodyText {
     font-size: 15px;
 }
 
-body{
+body {
     background-color: hsl(36, 100%, 99%);
 }
 
-.colorOrgange{
+.colorOrgange {
     color: hsl(35, 77%, 62%);
 }
 
-.colorRed{
+.colorRed {
     color: hsl(5, 85%, 63%);
 }
 
-.bgColorRed{
+.bgColorRed {
     background-color: hsl(5, 85%, 63%);
 }
 
-.colorOffWhite{
+.colorOffWhite {
     color: hsl(36, 100%, 99%);
 }
 
-.colorGreyBlue{
+.colorGreyBlue {
     color: hsl(233, 8%, 79%);
 }
 
-.colorDGreyBlue{
+.colorDGreyBlue {
     color: hsl(236, 13%, 42%);
 }
 
-.colorDBlue{
+.borderDGreyBlue {
+    border-color: hsl(236, 13%, 42%);
+}
+
+.colorDBlue {
     background-color: hsl(240, 100%, 5%);
 }
 
-.colorDBlueText{
+.colorDBlueText {
     color: hsl(240, 100%, 5%);
 }
+
+.lSpacing {
+    letter-spacing: 0.3rem;
+}
+
+.hSpace {
+    line-height: 1.10;
+}
+
